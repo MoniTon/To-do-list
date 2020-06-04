@@ -1,0 +1,53 @@
+.fa fa-trash-alt {
+    font-family: "fa fa-trash-alt";
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    position: relative;
+    margin-top: 20px;
+  
+  }
+  
+  ul li:hover {
+    background: #ddd;
+  }
+
+  .close:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  #myList {
+      font-size: 20px;
+      background-color: rgb(155, 163, 162)
+  }
+
+  .close {
+
+    margin-right: 100px;
+    position: absolute;
+    right:0;
+
+  }
+
+  .fa fa-trash-alt {
+
+    margin-right: 100px;
+    position: absolute;
+    right:0;
+
+  }
